@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic");
+
+html {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito";
+  background-image: url(https://img.freepik.com/free-vector/sky-background-video-conferencing_23-2148623068.jpg?size=626&ext=jpg&ga=GA1.1.1562831523.1719113498&semt=ais_user);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 50px;
+  color: rgb(211, 255, 253);
+
+}
+
+button {
+  cursor: pointer;
+  background-color: lightseagreen;
+  margin-left: 20px ;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  color: rgb(226, 226, 226);
+}
+
+input{
+  border-radius: 20px;
+  background-color: lightcyan;
+  padding: 10px;
+  border: none;
+}
+input:focus {
+  outline: none;
+}
+
+
+
+.root {
+  text-align: center;
+  margin: 10%;
+}
+
+.search-form {
+  text-align: center;
+  margin-top: 10%;
+}
+
+/* WEATHER */
+
+li {
+  list-style-type: none;
+}
+
+.weather-block {
+  text-align: center;
+}
+
+.main-block {
+  border: 1cap solid transparent;
+  margin: 15px;
+}
+
+.first-block {
+  border-radius: 6px;
+  background-color: lightcyan;
+  padding: 5px;
+  margin: 5px;
+}
+
+.second-block {
+  border-radius: 6px;
+  background-color: lightcyan;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+}
+
+.third-block {
+  border-radius: 6px;
+  background-color: lightcyan;
+  padding: 5px;
+  margin: 5px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.third-block::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll-forecast {
+  display: inline-block;
+  color: lightseagreen;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.text {
+  font-weight: bold;
+}
+
+.footer {
+  color: lightblue;
+  font-size: smaller;
+  font-family: monospace;
+}
